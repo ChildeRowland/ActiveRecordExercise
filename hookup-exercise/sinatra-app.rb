@@ -3,7 +3,7 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 
-set :database, "sqlite3:///project_database.sqlite3"
+set :database, "sqlite3:project_database.sqlite3"
 
 require './models'
 
